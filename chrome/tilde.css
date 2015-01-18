@@ -1,0 +1,12 @@
+.tilde-plugin-widget {
+            z-index:99999;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            border-radius: 3px;
+            padding: 2px 5px;
+            background: rgba(255,255,255,0.9);}
+            color: white;
+            font-size: 16px;
+            font-family: arial
+        }

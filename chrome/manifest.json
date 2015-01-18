@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Tilde",
+  "version": "0.1",
+
+  "description": "Tilde shows you how long each webpage will take to read.",
+  "icons": { "16": "img/16.png",
+           "32": "img/32.png",
+           "48": "img/64.png",
+          "128": "img/128.png" },
+  "author": "basiclaser",
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+    "matches": ["*://*./*"],
+      "css": ["tilde.css"],
+      "js": ["jquery.js","tilde.js"]
+    }
+  ]
+
+}
